@@ -1,0 +1,27 @@
+{
+  "name": "gifts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "D": "^1.0.0",
+    "axios": "^0.16.2",
+    "expect": "^21.2.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --setupTestFrameworkScriptFile=raf/polyfill",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.1",
+    "enzyme-to-json": "^3.1.2",
+    "react-test-renderer": "^16.0.0",
+    "enzyme-adapter-react-15": "^1.0.1"
+  }
+}
